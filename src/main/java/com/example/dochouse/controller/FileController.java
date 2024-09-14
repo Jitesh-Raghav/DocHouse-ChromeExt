@@ -13,8 +13,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/api/files")
-//@CrossOrigin(origins = "chrome-extension://lldgdmkecjecbahnmjaapeeeecooajdp")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "chrome-extension://*")
 public class FileController {
 
     @Autowired
