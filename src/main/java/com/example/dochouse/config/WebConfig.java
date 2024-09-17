@@ -11,7 +11,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("chrome-extension://*") // This allows all Chrome extensions
+                .allowedOrigins("chrome-extension://lldgdmkecjecbahnmjaapeeeecooajdp") // This allows all Chrome extensions
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
